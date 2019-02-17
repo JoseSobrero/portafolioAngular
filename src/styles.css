@@ -1,4 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* SVG Animation */
+svg path,
+svg rect{
+  fill: black;
+}
+.cargando{
+  padding: 1em;
+  background: white;
+  color: #777;
+  text-align: center;
+  font-family: "Gill sans", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/* Animaciones */
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
